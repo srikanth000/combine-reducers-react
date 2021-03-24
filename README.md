@@ -1,4 +1,5 @@
-The packages is mimics the logic behind the combineReducers of redux. It can be used with React hook useReducer 
+
+A less than 10kb packages is mimics the logic behind the combineReducers of redux. It can be used with React hook useReducer 
 
 **Installation**
 
