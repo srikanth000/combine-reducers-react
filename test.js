@@ -49,6 +49,5 @@ const [state, reducer] = combineReducers({
 console.log(reducer(state, {type: 'ADD_ITEMS', item: {item: 'ball', quantity: 3}}))
 console.log(reducer(state, {type: 'TOGGLE_LOGIN', status: true}))
 
-// console.log(state)
 
 

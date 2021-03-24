@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -if dist && npx babel src --out-dir dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:srikanth000/combine-reducers-react.git"
+  },
   "keywords": [
     "combine-reducers",
     "ContextApi",
@@ -19,6 +23,10 @@
   ],
   "author": "Srikanth Margam",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanth000/combine-reducers-react/issues"
+  },
+  "homepage": "https://github.com/srikanth000/combine-reducers-react#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0"
   },
