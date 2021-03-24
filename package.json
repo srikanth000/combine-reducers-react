@@ -1,5 +1,5 @@
 {
-  "name": "react-combinereducers",
+  "name": "combine-reducers-react",
   "version": "1.0.0",
   "description": "A tiny package for combine reducers that mimic the actual combine reducers of redux  while using useReducers with contextApi",
   "main": "dist",
