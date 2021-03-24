@@ -56,14 +56,13 @@ The packages is mimics the logic behind the combineReducers of redux. It can be 
        }
     }
 
-   const [state, reducer] = combineReducers({
-     user: [userInitialState, userReducer],
-     cartDetails: [cartInitialState, cartDetailsReducer]
-   })
+    const [state, reducer] = combineReducers({
+       user: [userInitialState, userReducer],
+       cartDetails: [cartInitialState, cartDetailsReducer]
+    })
 
-
-   console.log(reducer(state, {type: 'ADD_ITEMS', item: {item: 'ball', quantity: 3}}))
-   console.log(reducer(state, {type: 'TOGGLE_LOGIN', status: true}))
+    console.log(reducer(state, {type: 'ADD_ITEMS', item: {item: 'ball', quantity: 3}}))
+    console.log(reducer(state, {type: 'TOGGLE_LOGIN', status: true}))
 
 
 **Issues**
