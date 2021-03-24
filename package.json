@@ -1,0 +1,30 @@
+{
+  "name": "react-combinereducers",
+  "version": "1.0.0",
+  "description": "A tiny package for combine reducers that mimic the actual combine reducers of redux  while using useReducers with contextApi",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -if dist && npx babel src --out-dir dist"
+  },
+  "keywords": [
+    "combine-reducers",
+    "ContextApi",
+    "useReducer",
+    "combine",
+    "reducers",
+    "react-hooks",
+    "redux",
+    "Context-provider"
+  ],
+  "author": "Srikanth Margam",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.0",
+    "@babel/core": "^7.12.0",
+    "@babel/preset-env": "^7.12.0"
+  }
+}
