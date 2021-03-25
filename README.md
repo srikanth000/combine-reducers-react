@@ -15,8 +15,8 @@ A less than **10kb** packages is mimics the logic behind the combineReducers of 
 
 **Working example**
 
-    const combineReducers = require('./src/index')
-
+    import combineReducers from 'combine-reducers-react'
+    
      const userInitialState = {
      currentUser: {},
      isloggedIn: false,
